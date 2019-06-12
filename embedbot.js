@@ -17,7 +17,10 @@ bot.on("message", msg => {
     cmd = cmd.slice(prefix.length)
     let args = msg.content.split(" ").slice(1)
     if (cmd === "embed" || cmd === "e") {
-		if(args[0].includes("#") === true) {
+		if(!args[0]) {
+			msg.edit(":x: You must specify a message.");
+		}
+		else if(args[0].includes("#") === true) {
 			let message = args.slice(1).join(" ");
 			msg.edit("", { embed: new Discord.RichEmbed().setColor(args[0]).setDescription(message) });
 		}
