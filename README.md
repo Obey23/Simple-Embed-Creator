@@ -1,4 +1,4 @@
-# Embed-Bot
+# Simple-Embed-Creator
 A simple and slick embed sender for discord. Super simple installation.
 
 # Requirements
