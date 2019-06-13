@@ -21,10 +21,10 @@ To get set up follow these simple steps:
 7. Enjoy using your new cool embeds
 
 # Commands
-<> - required
+() - required
 [] - optional
 
-/embed [#hexcode] <message>:
+/embed [#hexcode] (message):
 *  Main command to send embeds
 *  Examples:
    * /embed Hello this is a cool embed!
