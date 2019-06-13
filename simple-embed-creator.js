@@ -9,7 +9,7 @@ bot.on("ready", () => {
     console.log('[INFO] Simple Embed Creator by Obey#0001')
     console.log('[INFO] Connected to Discord via the token successfully.')
     console.log('[INFO] Username: ' + bot.user.username)
-	console.log('[INFO] Commands List: /embed')
+    console.log('[INFO] Commands List: /embed')
 })
 
 bot.on("message", msg => {
@@ -18,17 +18,17 @@ bot.on("message", msg => {
     cmd = cmd.slice(prefix.length)
     let args = msg.content.split(" ").slice(1)
     if (cmd === "embed" || cmd === "e") {
-		if(!args[0]) {
-			msg.edit(":x: You must specify a message.");
-		}
-		else if(args[0].includes("#") === true) {
-			let message = args.slice(1).join(" ");
-			msg.edit("", { embed: new Discord.RichEmbed().setColor(args[0]).setDescription(message) });
-		}
-		else {
-			let message = args.join(" ");
-			msg.edit("", { embed: new Discord.RichEmbed().setDescription(message) });
-		}
+        if(!args[0]) {
+        msg.edit(":x: You must specify a message.");
+        }
+        else if(args[0].includes("#") === true) {
+            let message = args.slice(1).join(" ");
+            msg.edit("", { embed: new Discord.RichEmbed().setColor(args[0]).setDescription(message) });
+        }
+        else {
+            let message = args.join(" ");
+            msg.edit("", { embed: new Discord.RichEmbed().setDescription(message) });
+        }
     }
 })
 
