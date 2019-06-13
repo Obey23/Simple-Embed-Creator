@@ -6,7 +6,8 @@ const prefix = "/"
 bot.on("ready", () => {
     bot.login(config.token);
     console.log('----------------------------------------------------------')
-    console.log('[Obeys Embed Bot] Connected to Discord via the token successfully.')
+    console.log('[INFO] Simple Embed Creator by Obey#0001')
+    console.log('[INFO] Connected to Discord via the token successfully.')
     console.log('[INFO] Username: ' + bot.user.username)
 	console.log('[INFO] Commands List: /embed')
 })
