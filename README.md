@@ -12,15 +12,13 @@ To get set up follow these simple steps:
 * If you do not have discord.py already, run the bat file named "install-discord-js"
 * If you do not have NodeJS, go download it at https://nodejs.org/en/download/
 
-1. Go to https://discordapp.com/channels/@me (sign in with the account you want to use)
-2. Press ctrl + shift + i, go to application, click "discordapp.com" on the left
-3. Copy your "token" (long code of scrambled letters) into the config.json file
-* *You can now close that web browser*
-4. On discord, go to Settings -> Appearence and enable "Developer Mode"
-5. Go to a channel and right click on your username, click "Copy ID"
-6. Paste that into the config.json in the correct space
-7. Run "start.bat"
-8. Enjoy using your new cool embeds
+1. In Discord, press ctrl + shift + i, go to application, click "discordapp.com" on the left
+2. Press f5 or ctrl + r then copy your "token" (long code of scrambled letters) into the config.json file
+3. Go to Settings -> Appearence and enable "Developer Mode"
+4. Go to a channel and right click on your username, click "Copy ID"
+5. Paste that into the config.json in the correct space
+6. Run "start.bat"
+7. Enjoy using your new cool embeds
 
 # Commands
 <> - required
