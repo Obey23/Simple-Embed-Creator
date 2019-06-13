@@ -18,6 +18,7 @@ bot.on("message", msg => {
     cmd = cmd.slice(prefix.length)
     let args = msg.content.split(" ").slice(1)
     if (cmd === "embed" || cmd === "e") {
+		console.log('Embed command fired.');
         if(!args[0]) {
         msg.edit(":x: You must specify a message.");
         }
