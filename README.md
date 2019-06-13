@@ -25,10 +25,10 @@ To get set up follow these simple steps:
 [] - optional
 
 /embed [#hexcode] <message>:
-  Main command to send embeds
-  Examples:
-    /embed Hello this is a cool embed!
-    /embed #ff0000 This is a cool embed with a red bar!
+*  Main command to send embeds
+*  Examples:
+   * /embed Hello this is a cool embed!
+   * /embed #ff0000 This is a cool embed with a red bar!
 
 # Other
 Hope you enjoy using this! Discord: Obey#0001
