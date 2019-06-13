@@ -1,3 +1,3 @@
 @echo off
 
-node embedbot.js
+node simple-embed-creator.js
