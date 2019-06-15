@@ -5,7 +5,7 @@ const prefix = "/"
 
 bot.on("ready", () => {
     bot.login(config.token);
-    bot.user.setPresence({ status: 'online', game: { name: 'Obey#0001's Embeds' } });
+    bot.user.setPresence({ status: 'online', game: { name: "Obey#0001's Embeds" } });
     console.log('----------------------------------------------------------')
     console.log('[INFO] Simple Embed Creator by Obey#0001')
     console.log('[INFO] Connected to Discord via the token successfully.')
